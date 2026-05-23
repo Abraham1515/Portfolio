@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Home",
+    "work": "Work",
+    "about": "About",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "hero": {
+    "bio": "Multidisciplinary developer and designer based in Alicante, Spain. I build digital products where code and design work together.",
+    "cta_work": "View Work",
+    "cta_contact": "Get in touch"
+  },
+  "typewriter": {
+    "strings": ["Web Developer", "UX/UI Designer", "Brand Designer", "Digital Strategist"]
+  },
+  "home": {
+    "selected_work": "Selected Work",
+    "view_all": "View all →",
+    "about_heading": "Developer with a",
+    "about_heading_accent": "designer's eye",
+    "about_bio": "7+ years in graphic design and branding, 4+ years as a UX/UI Designer, now combining both with frontend and full-stack development.",
+    "about_link": "More about me →"
+  },
+  "projects": {
+    "heading": "Selected",
+    "heading_accent": "Work",
+    "subheading": "Development, UX/UI, and branding projects across various industries.",
+    "filter_all": "All",
+    "filter_dev": "Development",
+    "filter_design": "Design & Branding",
+    "filter_rn": "React Native",
+    "filter_flutter": "Flutter",
+    "filter_android": "Android",
+    "category_development": "Development",
+    "category_branding": "Design & Branding"
+  },
+  "about": {
+    "heading": "About",
+    "heading_accent": "Me",
+    "p1": "Hi! I'm Abraham Pérez, a multidisciplinary UX/UI Designer and Web Developer based in Alicante, Spain.",
+    "p2": "I hold official qualifications in Graphic Design, Web Application Development and Multiplatform Application Development — three regulated degrees that cover the full cycle from visual identity to digital product.",
+    "p3": "Over time, I shifted my focus towards web design and UX, and for the past 4 years I've been working professionally as a UX/UI Designer, designing user-centered interfaces and digital products.",
+    "p4": "For the past year and a half I've been actively working in development, building real mobile and web applications that combine my design background with frontend and full-stack development.",
+    "p5": "I also run a small app lab where I experiment with my own ideas: Ab-Lab. It's the space where projects like the ones you can see on this site are born.",
+    "skills_heading": "Skills & Tools",
+    "beyond_heading": "Beyond the screen",
+    "photo_placeholder": "Photo placeholder — asset coming soon",
+    "interest_games": "Playing Games",
+    "interest_novel": "Writing my novel",
+    "interest_nature": "Exploring Nature",
+    "interest_father": "Father of one"
+  },
+  "resume": {
+    "heading": "Resume",
+    "download": "Download CV",
+    "print": "Print"
+  },
+  "project_detail": {
+    "back": "Back to projects",
+    "view_github": "View on GitHub",
+    "github_private": "Private GitHub",
+    "github_private_title": "Private repository",
+    "github_private_body": "Unfortunately this GitHub project is private. If you'd like to request access, feel free to reach out via email.",
+    "github_private_cta": "Request access",
+    "github_private_close": "Close",
+    "live_demo": "Visit Website",
+    "gallery": "Gallery",
+    "screenshots_heading": "Inside the app",
+    "tap_to_enlarge": "Click to enlarge"
+  },
+  "project_content": {
+    "licencia-premium": "Licencia de Armas is a mobile application developed with React Native, available for Android and iOS.\n\nThe app helps users prepare for the official firearms license exam in Spain through categorized practice tests, detailed results, and progress tracking.\n\nThe project has two versions:\n\n· Premium — Full access to the complete question bank, advanced statistics, and unlimited practice. Available on both Android and iOS.\n\n· Freemium — Android-only version with a core set of free tests and optional in-app purchases to unlock the full content.\n\nThe interface is designed for non-technical users, prioritizing clarity, accessibility, and a smooth experience across both platforms.",
+    "contabilidad-domestica": "Contabilidad Doméstica is a Flutter mobile app for managing personal and household finances in a simple, privacy-first way. Available on Android and coming soon to iOS — completely free with ads.\n\nIt lets you log expenses and income in seconds, with over 42 spending categories and 3 income categories included. Each transaction supports an amount, category, date and optional note.\n\nKey features include monthly budgets with proximity alerts, visual trend charts and category breakdowns, PDF report generation for data export, optional cloud sync via Google or Apple account, and full offline functionality.\n\nData is stored locally on the device by default. Cloud sync is encrypted and only activated when the user chooses to enable it.",
+    "midosis": "MiDosis is an Android application developed in native Kotlin that helps manage medication for the whole family — people and pets — from a single app.\n\nIt allows creating independent profiles for each household member: people, dogs, cats and other animals. Each profile has its own treatments, doses and reminders, fully separated.\n\nKey features include smart reminders that notify at the exact time of each dose, a digital medicine cabinet to track medication inventory and know when to restock, a calendar view of active treatments with a complete dose history, and a visual tracking dashboard to see at a glance which doses are pending, completed or missed.\n\nFree to download on Google Play.",
+    "examen-test-pnb": "Examen Test PNB is a Flutter mobile app designed to help you prepare for the official PNB (Patrón de Navegación Básica) nautical licence exam in Spain. Available on Android and iOS — free with ads, with an optional one-time Premium upgrade.\n\nThe app includes over 400 questions from the official exam bank, organised across the 7 syllabus topics. Features include unlimited practice tests, interactive flashcards for buoyage, COLREGS signals and nautical terminology, a fully illustrated study guide with images and diagrams, a real exam simulator with 40 random questions and a timer, error tracking to identify weak areas, and full offline functionality.\n\nThe free version covers all content with ads. The Premium plan (€5.99, one-time payment) removes ads and includes lifetime access with future updates.\n\nBuilt with Flutter to deliver a smooth, native experience on both platforms.",
+    "dropson-web": "Corporate website for Dropson built with WordPress and Kadence. Professional presentation, accessibility, and easy content management.",
+    "hiking-routes": "PHP web platform for discovering, sharing, and managing hiking routes. Community-driven content with a focus on simplicity and usability.",
+    "veredict": "Android quiz game built in Unity combining trivia with interactive minigames. Focus on engagement, progression, and replayability.",
+    "spanish-food": "Branding for a company selling Spanish Gourmet products in the United States.",
+    "panaghia": "Branding for a confectionery and café in Alcantarilla, Murcia. Inspired by the name's meaning — craftsmanship, elegance, and premium quality.",
+    "manolhigos": "Branding for a fig producer from Almoharín, Extremadura. Timeless, handcrafted visual language emphasizing origin and craftsmanship.",
+    "biocomercio": "Branding for an organic products brand. Clean, friendly visual language conveying naturalness, trust, and sustainability.",
+    "plateros": "Branding for a specialty coffee shop in the center of Madrid.",
+    "madrid-prime": "Branding for a high-end real estate agency in Madrid. Exclusivity, professionalism, and trust aligned with a premium market.",
+    "movik": "Branding for an adaptive mobility solutions company. Inclusive, performance-driven design for people with reduced mobility.",
+    "tab": "Branding for a burger restaurant in Guardamar inspired by classic American burger culture.",
+    "dropson-brand": "Visual identity rebranding for a water filtration company. Technological focus, sustainability values, and modern positioning.",
+    "mommy-blue": "Branding for a terrace club in Orihuela Costa. Tropical atmosphere with African beats influences — exclusivity and distinctive nightlife.",
+    "orygen": "Branding for a fitness center in Guardamar. Strength, performance, and modernity through a bold typographic and industrial aesthetic.",
+    "guido": "Dental clinic rebranding in Torrevieja. Clean, modern, and professional — reinforcing trust and clinical precision.",
+    "pitstop": "Branding for a motorsport-inspired burger restaurant. Racing aesthetics, speed, and power translated into a bold brand experience.",
+    "clicknoise": "Bold, contemporary brand identity for a creative digital studio.",
+    "algo-vital": "Branding for a nutritional supplements brand. Trust, clarity, and balance with a professional, pharmaceutical-oriented positioning.",
+    "auto-bavaria": "Branding for a BMW-focused car rental service in Spain. Premium quality, reliability, and performance.",
+    "bachata-sensual": "Branding for a bachata dance school and event organization in Germany. Movement, passion, and elegance.",
+    "barberia": "Branding for a barbershop in Elche. Classic barber aesthetics with a clean, contemporary approach.",
+    "bergerat": "Branding for Bergerat Monoyeur's used machinery division. Clear identity reinforcing reliability and trust in the second-hand market.",
+    "biome-makers": "Branding for a biotech company specialized in soil microbiome analysis. Scientific rigor and technological innovation as a modern, trustworthy identity.",
+    "cervera-molina": "Branding for a law firm. Elegant and timeless identity conveying solidity, trust, and professional rigor.",
+    "ferso": "Branding for a construction company. Solidity, precision, and reliability with a strong industrial character.",
+    "ganimedes": "Branding for a blockchain initiative. Innovation, scalability, and forward momentum with futuristic aesthetics.",
+    "ingelanz": "Branding for a green engineering company in Lanzarote. Sustainability, technical expertise, and environmental responsibility.",
+    "iscalis": "Branding for a law firm. Clean, elegant, and contemporary identity conveying professionalism and trust.",
+    "la-vieja-calle": "Restaurant branding conveying a classic, premium identity inspired by traditional cuisine and refined dining.",
+    "lunn": "Branding for a dental laboratory. Clean, modern, and professional — emphasizing precision and trust."
+  }
+}

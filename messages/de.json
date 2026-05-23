@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "work": "Arbeiten",
+    "about": "Über mich",
+    "resume": "Lebenslauf",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "bio": "Multidisziplinärer Entwickler und Designer aus Alicante, Spanien. Ich entwickle digitale Produkte, bei denen Code und Design zusammenarbeiten.",
+    "cta_work": "Arbeiten ansehen",
+    "cta_contact": "Kontakt aufnehmen"
+  },
+  "typewriter": {
+    "strings": ["Web-Entwickler", "UX/UI-Designer", "Markendesigner", "Digitale Strategie"]
+  },
+  "home": {
+    "selected_work": "Ausgewählte Arbeiten",
+    "view_all": "Alle ansehen →",
+    "about_heading": "Entwickler mit dem Auge eines",
+    "about_heading_accent": "Designers",
+    "about_bio": "Über 7 Jahre in Grafikdesign und Branding, 4+ Jahre als UX/UI-Designer, jetzt beides kombiniert mit Frontend- und Full-Stack-Entwicklung.",
+    "about_link": "Mehr über mich →"
+  },
+  "projects": {
+    "heading": "Ausgewählte",
+    "heading_accent": "Arbeiten",
+    "subheading": "Entwicklungs-, UX/UI- und Branding-Projekte aus verschiedenen Branchen.",
+    "filter_all": "Alle",
+    "filter_dev": "Entwicklung",
+    "filter_design": "Design & Branding",
+    "filter_rn": "React Native",
+    "filter_flutter": "Flutter",
+    "filter_android": "Android",
+    "category_development": "Entwicklung",
+    "category_branding": "Design & Branding"
+  },
+  "about": {
+    "heading": "Über",
+    "heading_accent": "mich",
+    "p1": "Hallo! Ich bin Abraham Pérez, ein multidisziplinärer UX/UI-Designer und Web-Entwickler aus Alicante, Spanien.",
+    "p2": "Ich verfüge über offizielle Abschlüsse in Grafikdesign, Web-Anwendungsentwicklung und Multiplattform-Anwendungsentwicklung — drei geregelte Ausbildungen, die den gesamten Zyklus von der visuellen Identität bis zum digitalen Produkt abdecken.",
+    "p3": "Im Laufe der Zeit verlagerte ich meinen Fokus auf Webdesign und UX. Seit 4 Jahren arbeite ich professionell als UX/UI-Designer und gestalte nutzerzentrierte Interfaces und digitale Produkte.",
+    "p4": "Seit etwa eineinhalb Jahren arbeite ich aktiv in der Entwicklung und baue echte mobile und Web-Applikationen, die meinen Design-Hintergrund mit Frontend- und Full-Stack-Entwicklung verbinden.",
+    "p5": "Außerdem betreibe ich ein kleines App-Labor, in dem ich mit eigenen Ideen experimentiere: Ab-Lab. Dort entstehen Projekte wie die, die du auf dieser Website sehen kannst.",
+    "skills_heading": "Fähigkeiten & Tools",
+    "beyond_heading": "Jenseits des Bildschirms",
+    "photo_placeholder": "Foto — demnächst verfügbar",
+    "interest_games": "Videospiele",
+    "interest_novel": "Meinen Roman schreiben",
+    "interest_nature": "Natur erkunden",
+    "interest_father": "Vater eines Kindes"
+  },
+  "resume": {
+    "heading": "Lebenslauf",
+    "download": "Lebenslauf herunterladen",
+    "print": "Drucken"
+  },
+  "project_detail": {
+    "back": "Zurück zu Projekten",
+    "view_github": "Auf GitHub ansehen",
+    "github_private": "Privates GitHub",
+    "github_private_title": "Privates Repository",
+    "github_private_body": "Leider ist dieses GitHub-Projekt privat. Wenn du Zugang anfordern möchtest, kannst du uns gerne per E-Mail kontaktieren.",
+    "github_private_cta": "Zugang anfragen",
+    "github_private_close": "Schließen",
+    "live_demo": "Website besuchen",
+    "gallery": "Galerie",
+    "screenshots_heading": "So sieht die App aus",
+    "tap_to_enlarge": "Zum Vergrößern anklicken"
+  },
+  "project_content": {
+    "licencia-premium": "Licencia de Armas ist eine mit React Native entwickelte mobile App, verfügbar für Android und iOS.\n\nSie hilft Nutzern, sich auf die offizielle Waffenscheinprüfung in Spanien vorzubereiten — mit kategorisierten Übungstests, detaillierten Ergebnissen und Fortschrittsverfolgung.\n\nDas Projekt umfasst zwei Versionen:\n\n· Premium — Vollständiger Zugang zur Fragenbank, erweiterte Statistiken und unbegrenzte Übungen. Verfügbar für Android und iOS.\n\n· Freemium — Nur für Android, mit einem kostenlosen Grundpaket und In-App-Käufen zum Freischalten aller Inhalte.\n\nDie Oberfläche ist für nicht-technische Nutzer konzipiert und priorisiert Übersichtlichkeit, Zugänglichkeit und ein reibungsloses Erlebnis auf beiden Plattformen.",
+    "contabilidad-domestica": "Contabilidad Doméstica ist eine Flutter-App zur einfachen und datenschutzfreundlichen Verwaltung persönlicher und häuslicher Finanzen. Verfügbar für Android, demnächst auch für iOS — komplett kostenlos mit Werbung.\n\nAusgaben und Einnahmen lassen sich in Sekunden erfassen, mit über 42 Ausgaben- und 3 Einnahmekategorien. Jede Transaktion umfasst Betrag, Kategorie, Datum und eine optionale Notiz.\n\nDie wichtigsten Funktionen umfassen monatliche Budgets mit Annäherungsbenachrichtigungen, visuelle Trenddiagramme und Kategorieaufschlüsselungen, PDF-Berichterstellung für den Datenexport, optionale Cloud-Synchronisation über Google- oder Apple-Konto sowie vollständige Offline-Nutzung.\n\nDaten werden standardmäßig lokal auf dem Gerät gespeichert. Die Cloud-Synchronisation ist verschlüsselt und wird nur aktiviert, wenn der Nutzer dies wünscht.",
+    "midosis": "MiDosis ist eine Android-App, entwickelt in nativem Kotlin, die dabei hilft, die Medikation der ganzen Familie — Menschen und Haustiere — in einer einzigen App zu verwalten.\n\nSie ermöglicht das Erstellen unabhängiger Profile für jedes Haushaltsmitglied: Menschen, Hunde, Katzen und andere Tiere. Jedes Profil hat eigene Behandlungen, Dosierungen und Erinnerungen, vollständig getrennt.\n\nDie wichtigsten Funktionen umfassen intelligente Erinnerungen, die genau zum Einnahmezeitpunkt benachrichtigen, einen digitalen Medikamentenschrank zur Inventarverwaltung und Nachschubplanung, eine Kalenderansicht aktiver Behandlungen mit vollständiger Dosierungshistorie sowie ein visuelles Tracking-Dashboard zum schnellen Überblick über ausstehende, eingenommene oder verpasste Dosen.\n\nKostenlos im Google Play Store erhältlich.",
+    "examen-test-pnb": "Examen Test PNB ist eine mit Flutter entwickelte mobile App zur Vorbereitung auf die offizielle PNB-Prüfung (Patrón de Navegación Básica) in Spanien. Verfügbar für Android und iOS — kostenlos mit Werbung, mit optionalem einmaligen Premium-Upgrade.\n\nDie App enthält über 400 Fragen aus dem offiziellen Prüfungspool, gegliedert in die 7 Themengebiete des Lehrplans. Zu den Funktionen gehören unbegrenzte Übungstests, interaktive Lernkarten für Betonnung, COLREG-Signale und nautische Terminologie, ein vollständig illustriertes Lernmaterial mit Bildern und Diagrammen, ein echter Prüfungssimulator mit 40 zufälligen Fragen und Timer, Fehlerverfolgung zur Identifikation von Schwachstellen sowie vollständige Offline-Nutzung.\n\nDie kostenlose Version umfasst alle Inhalte mit Werbung. Das Premium-Paket (5,99 €, einmalige Zahlung) entfernt die Werbung und bietet lebenslangen Zugang inklusive Updates.\n\nMit Flutter entwickelt für ein reibungsloses natives Erlebnis auf beiden Plattformen.",
+    "dropson-web": "Unternehmenswebsite für Dropson, entwickelt mit WordPress und Kadence. Professionelle Darstellung, Barrierefreiheit und einfache Inhaltsverwaltung.",
+    "hiking-routes": "In PHP entwickelte Webplattform zum Entdecken, Teilen und Verwalten von Wanderrouten. Community-Inhalte mit Fokus auf Einfachheit und Benutzerfreundlichkeit.",
+    "veredict": "Android-Quizspiel in Unity, das Trivia mit interaktiven Minispielen kombiniert. Fokus auf Engagement, Progression und Wiederspielbarkeit.",
+    "spanish-food": "Branding-Projekt für ein Unternehmen, das spanische Gourmetprodukte in den USA vertreibt.",
+    "panaghia": "Branding für eine Konditorei und ein Café in Alcantarilla, Murcia. Inspiriert vom Namensbedeutung: Handwerk, Eleganz und Premium-Qualität.",
+    "manolhigos": "Branding für einen Feigenproduzenten aus Almoharín, Extremadura. Handwerkliche, zeitlose Bildsprache, die Herkunft und Qualität betont.",
+    "biocomercio": "Branding für eine Bio-Produktmarke. Klare, zugängliche Bildsprache, die Natürlichkeit, Vertrauen und Nachhaltigkeit vermittelt.",
+    "plateros": "Branding für Platero's, ein Spezialitätenkaffee im Zentrum von Madrid.",
+    "madrid-prime": "Branding für eine Luxusimmobilienagentur in Madrid. Exklusivität, Professionalität und Vertrauen für den Premium-Markt.",
+    "movik": "Branding für ein Unternehmen für adaptive Mobilitätslösungen. Inklusives, leistungsorientiertes Design für Menschen mit eingeschränkter Mobilität.",
+    "tab": "Branding für ein Burger-Restaurant in Guardamar, inspiriert von klassischer amerikanischer Burger-Kultur.",
+    "dropson-brand": "Visuelles Rebranding für ein Wasserfiltrationsunternehmen. Technologischer Fokus, Nachhaltigkeitswerte und modernes Positioning.",
+    "mommy-blue": "Branding für einen Terrassenclub in Orihuela Costa. Tropisches Ambiente mit afrikanischen Einflüssen — Exklusivität und einzigartiges Nachtleben.",
+    "orygen": "Branding für ein Fitnessstudio in Guardamar. Stärke, Performance und Modernität durch eine kräftige typografische und industrielle Ästhetik.",
+    "guido": "Rebranding für die Zahnarztpraxis Guido Audisio in Torrevieja. Klarer, professioneller Ansatz, der Vertrauen und klinische Präzision stärkt.",
+    "pitstop": "Branding für ein Motorsport-inspiriertes Burger-Restaurant. Rennästhetik, Geschwindigkeit und Power.",
+    "clicknoise": "Mutige, zeitgemäße Markenidentität für ein kreatives digitales Studio.",
+    "algo-vital": "Branding für eine Nahrungsergänzungsmittelmarke. Vertrauen, Klarheit und Balance mit pharmazeutisch orientiertem Positioning.",
+    "auto-bavaria": "Branding für einen BMW-fokussierten Mietwagenservice in Spanien. Premium-Qualität, Zuverlässigkeit und Performance.",
+    "bachata-sensual": "Branding für eine Bachata-Tanzschule und Veranstaltungsorganisation in Deutschland. Bewegung, Leidenschaft und Eleganz.",
+    "barberia": "Branding für einen Barbershop in Elche. Klassische Barbier-Ästhetik mit einem zeitgemäßen Ansatz.",
+    "bergerat": "Branding für die Gebrauchtmaschinen-Sparte von Bergerat Monoyeur. Identität, die Zuverlässigkeit auf dem Gebrauchtmarkt stärkt.",
+    "biome-makers": "Branding für ein Biotechnologieunternehmen spezialisiert auf Bodenmikrobiom-Analysen. Wissenschaftliche Präzision und technologische Innovation.",
+    "cervera-molina": "Branding für eine Anwaltskanzlei. Elegante, zeitlose Identität, die Solidität, Vertrauen und professionelle Strenge vermittelt.",
+    "ferso": "Branding für ein Bauunternehmen. Solidität, Präzision und Zuverlässigkeit mit starkem industriellen Charakter.",
+    "ganimedes": "Branding für eine Blockchain-Initiative. Innovation, Skalierbarkeit und futuristische Ausrichtung.",
+    "ingelanz": "Branding für ein Green-Engineering-Unternehmen auf Lanzarote. Nachhaltigkeit, technische Expertise und Umweltverantwortung.",
+    "iscalis": "Branding für eine Anwaltskanzlei. Klare, zeitgemäße Identität, die Professionalität und Vertrauen vermittelt.",
+    "la-vieja-calle": "Branding für ein Restaurant. Klassische, hochwertige Identität inspiriert von traditioneller Küche und gehobener Gastronomie.",
+    "lunn": "Branding für ein Dentallabor. Moderne, professionelle Identität mit Fokus auf Präzision und Vertrauen."
+  }
+}
