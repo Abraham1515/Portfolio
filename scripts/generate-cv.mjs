@@ -225,7 +225,7 @@ function buildHtml(c) {
 
 <!-- PAGE 1 -->
 <div style="padding:44px 52px 36px;position:relative;page-break-after:always">
-  <div style="position:absolute;top:0;left:0;width:5px;height:100%;background:${ACCENT}"></div>
+  <div style="position:absolute;top:0;left:0;width:5px;height:297mm;background:${ACCENT}"></div>
 
   <!-- HEADER -->
   <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:22px">
@@ -263,7 +263,7 @@ function buildHtml(c) {
 
 <!-- PAGE 2 -->
 <div style="padding:44px 52px 36px;position:relative">
-  <div style="position:absolute;top:0;left:0;width:5px;height:100%;background:${ACCENT}"></div>
+  <div style="position:absolute;top:0;left:0;width:5px;height:297mm;background:${ACCENT}"></div>
 
   <!-- EDUCACIÓN -->
   <div style="margin-bottom:28px">
