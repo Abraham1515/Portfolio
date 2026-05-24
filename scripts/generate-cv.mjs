@@ -224,7 +224,7 @@ function buildHtml(c) {
 <body>
 
 <!-- PAGE 1 -->
-<div style="padding:44px 52px 36px;min-height:297mm;position:relative;page-break-after:always">
+<div style="padding:44px 52px 36px;position:relative;page-break-after:always">
   <div style="position:absolute;top:0;left:0;width:5px;height:100%;background:${ACCENT}"></div>
 
   <!-- HEADER -->
@@ -255,13 +255,18 @@ function buildHtml(c) {
   </div>
 
   <!-- EXPERIENCIA -->
-  <div style="margin-bottom:20px">
+  <div>
     ${sectionTitle(c.sections.experience)}
     ${c.jobs.map(job).join('')}
   </div>
+</div>
+
+<!-- PAGE 2 -->
+<div style="padding:44px 52px 36px;position:relative">
+  <div style="position:absolute;top:0;left:0;width:5px;height:100%;background:${ACCENT}"></div>
 
   <!-- EDUCACIÓN -->
-  <div>
+  <div style="margin-bottom:28px">
     ${sectionTitle(c.sections.education)}
     <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px">
       ${c.education.map(({ title, sub }) => `
@@ -271,11 +276,6 @@ function buildHtml(c) {
         </div>`).join('')}
     </div>
   </div>
-</div>
-
-<!-- PAGE 2 -->
-<div style="padding:44px 52px 36px;min-height:297mm;position:relative">
-  <div style="position:absolute;top:0;left:0;width:5px;height:100%;background:${ACCENT}"></div>
 
   <!-- PROYECTOS -->
   <div style="margin-bottom:28px">

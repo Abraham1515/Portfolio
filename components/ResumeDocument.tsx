@@ -242,7 +242,7 @@ export default function ResumeDocument({ lang = 'es' }: { lang?: 'es' | 'en' }) 
     <div style={{ background: 'white', color: DARK, fontFamily: '"Inter", "Helvetica Neue", Arial, sans-serif', maxWidth: '210mm', margin: '0 auto' }}>
 
       {/* ── PAGE 1 ─────────────────────────────────────────────── */}
-      <div style={{ padding: '44px 52px 36px', minHeight: '277mm', boxSizing: 'border-box', position: 'relative' }}>
+      <div style={{ padding: '44px 52px 36px', boxSizing: 'border-box', position: 'relative', pageBreakAfter: 'always', breakAfter: 'page' }}>
         <div style={{ position: 'absolute', top: 0, left: 0, width: 5, height: '100%', background: ACCENT }} />
 
         {/* HEADER */}
@@ -279,15 +279,20 @@ export default function ResumeDocument({ lang = 'es' }: { lang?: 'es' | 'en' }) 
         </div>
 
         {/* EXPERIENCIA */}
-        <div style={{ marginBottom: 20 }}>
+        <div>
           <SectionTitle>{c.sections.experience}</SectionTitle>
           {c.jobs.map((job) => (
             <Job key={job.company + job.period} {...job} />
           ))}
         </div>
+      </div>
+
+      {/* ── PAGE 2 ─────────────────────────────────────────────── */}
+      <div style={{ padding: '44px 52px 36px', boxSizing: 'border-box', position: 'relative', borderTop: `4px solid ${BORDER}`, pageBreakBefore: 'always', breakBefore: 'page' }}>
+        <div style={{ position: 'absolute', top: 0, left: 0, width: 5, height: '100%', background: ACCENT }} />
 
         {/* EDUCACIÓN */}
-        <div>
+        <div style={{ marginBottom: 28 }}>
           <SectionTitle>{c.sections.education}</SectionTitle>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 10 }}>
             {c.education.map(({ title, sub }) => (
@@ -298,11 +303,6 @@ export default function ResumeDocument({ lang = 'es' }: { lang?: 'es' | 'en' }) 
             ))}
           </div>
         </div>
-      </div>
-
-      {/* ── PAGE 2 ─────────────────────────────────────────────── */}
-      <div style={{ padding: '44px 52px 36px', minHeight: '277mm', boxSizing: 'border-box', position: 'relative', borderTop: `4px solid ${BORDER}`, pageBreakBefore: 'always', breakBefore: 'page' }}>
-        <div style={{ position: 'absolute', top: 0, left: 0, width: 5, height: '100%', background: ACCENT }} />
 
         {/* PROYECTOS */}
         <div style={{ marginBottom: 28 }}>
