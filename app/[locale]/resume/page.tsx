@@ -1,7 +1,6 @@
 import { useTranslations } from 'next-intl'
 import { AiOutlineDownload } from 'react-icons/ai'
 import ResumeDocument from '@/components/ResumeDocument'
-import PrintButton from '@/components/PrintButton'
 
 export default function ResumePage({ params: { locale } }: { params: { locale: string } }) {
   const t = useTranslations('resume')
@@ -14,7 +13,7 @@ export default function ResumePage({ params: { locale } }: { params: { locale: s
           <h1 className="font-display font-bold text-5xl text-text">{t('heading')}</h1>
           <div className="flex gap-3">
             <a
-              href="/assets/abrahamCV.pdf"
+              href={lang === 'es' ? '/assets/abrahamCV.pdf' : '/assets/abrahamCV-en.pdf'}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-5 py-2.5 border border-border text-muted rounded-full text-sm font-medium hover:border-accent hover:text-accent transition-colors duration-200"
@@ -22,7 +21,6 @@ export default function ResumePage({ params: { locale } }: { params: { locale: s
               <AiOutlineDownload size={18} />
               {t('download')}
             </a>
-            <PrintButton label={t('print')} />
           </div>
         </div>
 
