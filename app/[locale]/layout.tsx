@@ -14,6 +14,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space
 export const metadata: Metadata = {
   title: 'Abraham Pérez — Web Developer & UX/UI Designer',
   description: 'Multidisciplinary Web Developer and UX/UI Designer based in Alicante, Spain.',
+  icons: { icon: '/favicon.png' },
 }
 
 export function generateStaticParams() {
