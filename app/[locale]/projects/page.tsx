@@ -12,6 +12,7 @@ export default function ProjectsPage() {
       filterAll={t('filter_all')}
       filterDev={t('filter_dev')}
       filterDesign={t('filter_design')}
+      filterReact={t('filter_react')}
       filterRN={t('filter_rn')}
       filterFlutter={t('filter_flutter')}
       filterAndroid={t('filter_android')}

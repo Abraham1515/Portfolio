@@ -159,6 +159,28 @@ export const projects: Project[] = [
     tags: ['Flutter', 'iOS', 'Android'],
   },
   {
+    id: 'todo-app',
+    title: 'Todo-App',
+    description:
+      'Task list with a Windows 95 aesthetic, built with React.',
+    category: 'development',
+    image: '/assets/Projects/todo-app/screenshot.jpg',
+    ghLink: 'https://github.com/Abraham1515/todo-app',
+    demoLink: 'https://todo-app-ebon-three-25.vercel.app/',
+    tags: ['React', 'JavaScript', 'Vite'],
+  },
+  {
+    id: 'app-clima',
+    title: 'App-Clima',
+    description:
+      'Weather search app with a clean, modern interface, built with React.',
+    category: 'development',
+    image: '/assets/Projects/app-clima/screenshot.jpg',
+    ghLink: 'https://github.com/Abraham1515/app-clima',
+    demoLink: 'https://app-clima-beta-three.vercel.app/',
+    tags: ['React', 'JavaScript', 'Vite'],
+  },
+  {
     id: 'dropson-web',
     hidden: true,
     title: 'Dropson',

@@ -6,7 +6,7 @@ import ProjectCard from '@/components/ProjectCard'
 import { projects } from '@/lib/projects'
 import type { ProjectCategory } from '@/lib/projects'
 
-type Filter = 'all' | ProjectCategory | 'react-native' | 'flutter' | 'android'
+type Filter = 'all' | ProjectCategory | 'react' | 'react-native' | 'flutter' | 'android'
 
 interface Props {
   heading: string
@@ -15,6 +15,7 @@ interface Props {
   filterAll: string
   filterDev: string
   filterDesign: string
+  filterReact: string
   filterRN: string
   filterFlutter: string
   filterAndroid: string
@@ -27,6 +28,7 @@ export default function ProjectsClient({
   filterAll,
   filterDev,
   filterDesign,
+  filterReact,
   filterRN,
   filterFlutter,
   filterAndroid,
@@ -42,6 +44,7 @@ export default function ProjectsClient({
     { value: 'all', label: filterAll },
     { value: 'development', label: filterDev },
     { value: 'branding', label: filterDesign },
+    { value: 'react', label: filterReact },
     { value: 'react-native', label: filterRN },
     { value: 'flutter', label: filterFlutter },
     { value: 'android', label: filterAndroid },
@@ -52,6 +55,8 @@ export default function ProjectsClient({
   const filtered =
     active === 'all'
       ? visible
+      : active === 'react'
+        ? visible.filter((p) => p.tags?.includes('React'))
       : active === 'react-native'
         ? visible.filter((p) => p.tags?.includes('React Native'))
         : active === 'flutter'
