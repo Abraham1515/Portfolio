@@ -73,7 +73,7 @@ export const projects: Project[] = [
     id: 'contabilidad-domestica',
     title: 'Contabilidad Doméstica',
     description:
-      'Flutter app to manage personal and household finances — expenses, income, budgets and visual analytics. Free with ads, available on Android and coming soon to iOS.',
+      'Flutter app to manage personal and household finances — expenses, income, budgets and visual analytics. Free with ads, available on Android and iOS.',
     category: 'development',
     image: '/assets/Projects/cont/logo512.jpg',
     heroImage: '/assets/Projects/cont/Gemini_Generated_Image_77pivo77pivo77pi.webp',
@@ -102,9 +102,8 @@ export const projects: Project[] = [
         url: 'https://play.google.com/store/apps/details?id=com.abrahamperez.contabilidaddomestica&utm_source=emea_Med',
       },
       {
-        label: 'Apple — Próximamente',
-        url: '',
-        comingSoon: true,
+        label: 'Apple',
+        url: 'https://apps.apple.com/us/app/contabilidad-dom%C3%A9stica/id6775210653',
       },
     ],
     tags: ['Flutter', 'iOS', 'Android'],
